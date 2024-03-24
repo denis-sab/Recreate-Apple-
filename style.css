@@ -1,8 +1,13 @@
+
 * {
-    box-sizing: border-box;
+    box-sizing: border-box; 
     margin: 0;
     padding: 0;
 }
+
+
+
+body {
 
 nav .nav-links {
     
@@ -35,13 +40,185 @@ img{
 a:hover {
     color: white;
     cursor: pointer;
+
+main {  
 }
 
-body {
 
-   height: 100vh;
+
+div {
+    width: 100%;
+  /*  border: 5px solid rgb(12, 147, 93);
+    background-color: aquamarine;    
+    */
 }
 
-.footer {
+
+
+.d-logo{
+    background-image: url("Assets/4331547_original.webp");
+    background-size: 80%;
+    height:400px;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.d-logo #pl1 { 
+    color: black;
+    margin-top: 60px;
+    margin-left: 442px;
+    height: 60px;
+    color: black;
+    opacity: 0.8;
+}
+.d-logo #pl2 {   
+    color: black;
+    font-size: medium;
+    margin-top: 270px;
+    margin-left: 467px;
+    height: 50px;
+}
+ .d-logo a {
+    color: rgb(26, 91, 190);
+}
+
+
+
+.d-mac {
+    background-image: url("Assets/Apple-MacBook-Pro-2up-231030_Full-Bleed-Image.jpg.large.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height:500px;
+    background-size: 100%;
+}
+
+
+
+.d-phone {
+    background-image: url("Assets/Iphone12.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height:500px;
+    background-size: 100%;
+    position: relative; 
+}
+.d-phone #phone1 { 
+   /*in-top: 180px;
+    margin-left: 120px;
+    position: absolute;
+    opacity: 0.8; */
+
+    text-align: right;
+    font-size: large;
+    margin-top:100px;
+    margin-left: 80%;
+    position: absolute;
+    opacity: 0.8; 
+}
+.d-phone #phone2 { 
+   /* text-align: right;
+    font-size: large;
+    margin-top:70px;
+    margin-left: 80%;
+    position: absolute;
+    opacity: 0.8; */
+
+    font-size: large;
+    margin-top: 180px;
+    margin-left: 120px;
+    position: absolute;
+    opacity: 0.8;
+}
+.d-phone #phone3 { 
+    font-size: small;
+    margin-top: 167px;
+    margin-left: 81%;
+    position: absolute;
+}
+.d-phone #phone4 { 
+    text-align: right;
+    font-size: small;
+    margin-top: 150px;
+    margin-left: 81%;
+    position: absolute;
+}
+.d-phone a {
+    color:rgb(26, 91, 190);
+}
+
+
+
+.d-4side {
+    display: flex;
+    height: 190px;
+   
+}
+
+.d-tv {  
+    background-image: url("Assets/m3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.d-watch {  
+    background-image: url("Assets/watcap.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    
     
 }
+.d-airpods {  
+    background-image: url("Assets/abc.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.d-vision {  
+    background-image: url("Assets/sddefault.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+
+.Tree {
+    background-image: url("Assets/AppleTree.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+}
+  
+  * {background-color: #F5F5F7 ;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: rgb(148, 147, 147);
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+
+
+
+.container {display:flex; 
+    flex-wrap: wrap; 
+    flex-direction:row;
+    list-style-type: none;
+    justify-content: space-around;}
+        
+ul{list-style-type: none;
+    padding-left: 0;
+    justify-content: left;}
+
+.d-end {
+    font-style: italic;
+    padding: 30px 180px 80px 180px;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 9px;
+    color: gray;
+    background-color: rgb(240, 238, 238)
+    
+  }
+ h4 {font-weight: 200;}
+    
+
+hr {margin-left:20px;
+    margin-right:20px;}
+
